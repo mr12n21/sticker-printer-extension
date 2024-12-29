@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Save PDF",
+    "version": "1.0",
+    "description": "Automaticky ukládá PDF soubory na základě dynamického URL vzoru.",
+    "permissions": ["downloads", "webRequest", "webRequestBlocking"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Auto Save PDF"
+    }
+  }
+  
